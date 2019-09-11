@@ -59,6 +59,8 @@ $(document).ready(function() {
     }
   });
 
+  $("#year").text(new Date().getFullYear());
+
   /* Self edit */
   /* Navigation scroll */
   // Select all links with hashes
